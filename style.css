@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+    background-color: #0cc779; /* Cor de fundo verde */
+    color: #fff;         /* Cor do texto branco */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: auto;
+}
+
+h3 {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Mobile: tudo em coluna */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    height: 500px;
+    margin: 20px;
+    background-color: #0cc779; /* Cor de fundo verde */
+    color: #fff;          /* Cor do texto branco */
+    border-radius: 20px;
+}
+
+/* Estilos para desktop */
+@media (min-width: 768px) {
+    .container {
+        color: #0cc779;
+        padding: 20px;
+        text-decoration: none;
+        border-radius: 50px;
+        margin: 20px;
+        /* Sombra */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra mais sutil */
+        width: auto;
+        height: 100%; /* Remove a altura fixa */
+        background-color: rgb(255, 255, 255); /* Cor de fundo branco */
+        flex-direction: row;        /* Desktop: perfil à esquerda, links à direita */
+        justify-content: space-around;
+    }
+    
+    .profile {
+        margin-right: 50px;
+    }
+
+    .profile img {
+        width: 200px;
+    }
+
+    .social-icons i {
+        margin: 10px 5px;  
+        color: #0cc779;    /* Ícones na cor #0cc779 */
+        font-size: 24px;
+        margin-bottom: 30px;
+        padding: 6px;
+    }
+
+    .links a.link-button {
+        background-color: transparent; /* Botões transparentes */
+        color: #0cc779;
+        border: solid 1px #0cc779;
+    }
+
+    .links a:hover {
+        background-color: #fff; 
+        color: #0cc779;
+        border: solid 1px #0cc779;
+    }
+
+}
+
+.profile img {
+    width: 130px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #0cc779;
+}
+
+.links a.link-button i {
+    font-size: 12px;
+    margin-right: 5px; /* Espaçamento entre ícone e texto */ 
+}
+
+.links a {
+    display: block;
+    background-color: rgb(255, 255, 255); 
+    color: #0cc779;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid 1px #fff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    font-weight: 600;
+    transition: background-color 0.3s ease; /* Adicionando transição suave */
+}
+
+.links a:hover {
+    background-color: #0cc779; 
+    color: #fff;
+    border: solid 1px #fff;
+} 
+
+.social-icons a {
+    margin: 10px 5px;  /* Espaçamento reduzido */
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding: 6px;
+}
+
+/* ... (outros estilos) ... */
+
+.links a.link-button {
+    display: flex;     /* Usamos flex para alinhar */
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    width: 230px;
+    text-align: center;
+    padding: auto;
+    font-size: 14px;
+}
+
+.links a.link-button i {
+    font-size: 12px;
+    margin-right: 5px; /* Espaçamento entre ícone e texto */ 
+}
+
+
+
+footer {
+    background-color: #0cc779;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
