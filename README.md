@@ -28,7 +28,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma *issue* ou e
 
 ## Contato
 
-Em caso de dúvidas ou sugestões, entre em contato através do e-mail analeodoroforense@gmail.com.
+Em caso de dúvidas ou sugestões, entre em contato através do e-mail faelscarpato@gmail.com.
 
 ## Licença
 
